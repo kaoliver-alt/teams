@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully <br>";
 
-$sql = "SELECT name FROM teams";
+$sql = "SELECT name FROM teams WHERE city = 'Brooklyn'";
     $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
