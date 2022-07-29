@@ -19,7 +19,7 @@ $sql = "SELECT,
 FROM
 ORDER BY ";
 
-USE teams;
+//USE teams;
 
 $sql = "SELECT *
 FROM teams
